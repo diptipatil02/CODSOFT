@@ -49,7 +49,7 @@ def main():
 
         play_again = input("\nDo you want to play another round? (yes/no): ").lower()
         if play_again != 'yes':
-            print("Thanks for playing! Final score -> You: {user_score} | Computer: {computer_score}")
+            print(f"Thanks for playing! Final score -> You: {user_score} | Computer: {computer_score}")
             break
 
 if __name__ == "__main__":
